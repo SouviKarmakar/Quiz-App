@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".QuestionsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/questionDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                tools:text = "Which country this flag belongs to?"
+                />
+
+            <ImageView
+                android:id="@+id/imageQues"
+                android:layout_width="250sp"
+                android:layout_height="150sp"
+                android:layout_margin="16sp"
+                android:contentDescription="@string/quiz_image"
+                tools:src="@drawable/vansh"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <ProgressBar
+                    android:id="@+id/progressBAR"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:indeterminate="false"
+                    android:max="10"
+                    android:minHeight="50dp"
+                    android:progress="0" />
+
+                <TextView
+                    android:id="@+id/progressCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    tools:text="0/10" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/opt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="16sp"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/default_option_border_bg"
+                tools:text="Armenia" />
+
+            <TextView
+                android:id="@+id/opt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="16sp"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/default_option_border_bg"
+                tools:text="Armenia" />
+
+            <TextView
+                android:id="@+id/opt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="16sp"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/default_option_border_bg"
+                tools:text="Armenia" />
+
+            <TextView
+                android:id="@+id/opt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:padding="16sp"
+                android:textColor="#009688"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/default_option_border_bg"
+                tools:text="Na Aand ka Na Gaand ka, Bus Gyaan Pele Brahmaand ka" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cornerRadius="1dp"
+                android:text="@string/submit"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:backgroundTint="#495057"
+                 />
+
+        </LinearLayout>
+
+</ScrollView>

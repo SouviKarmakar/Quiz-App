@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Brain Blitz</string>
+    <string name="brain_blitz">BRAIN BLITZ</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="please_enter_your_name">Please Enter your Name:</string>
+    <string name="eg">e.g. Souvik</string>
+    <string name="name_here">Name Here</string>
+    <string name="start">START</string>
+    <string name="let_s_go">Let\'s Go!!</string>
+    <string name="quiz_image">Quiz Image</string>
+    <string name="submit">SUBMIT</string>
+</resources>
